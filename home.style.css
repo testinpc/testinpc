@@ -1,0 +1,253 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#logo{
+    width:250px;
+   cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 40
+}
+.cover-page-1{
+max-width: 100%;
+}
+@import url(
+  'https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+header{
+  background-color: #fcd512;
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ padding: 10px 6% ;
+ box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}  
+.nav-button {
+list-style: none;
+
+}
+.nav-button li {
+  display: inline-block;
+  padding: 0px 10px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@700&display=swap');
+#Home, #live , .shop, .Abaya, .Dress, .Malaya-product{
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition: ease;
+  transition-delay: 0s;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+  #Home:hover, #live:hover , .shop:hover, .Abaya:hover, .Dress:hover, .Malaya-product:hover{
+    color: #fcd512;
+    background-color: rgb(0, 0, 0) ;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 100px;
+    padding: 0px 20px;
+    transition-duration: 0.4s;
+  }
+ .search-bar{
+  display: flex;
+  align-items: center;
+border-style: solid;
+border-width: 0px;
+border-radius: 100px;
+background-color: white;
+padding: 5px 20px;
+ }
+ #Search-box{
+  border-width:0 ;
+  height: 24px;
+  border: none;
+    outline: none;
+ }
+ #Search-box:hover{
+    border: none;
+    outline: none;
+ }
+ #search-icon{
+ background-color: white;
+ font-size: 20px;
+ text-align: center;
+ cursor: pointer;
+ }
+  /*product catagory showcase*/
+.product-cata-text{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.product-cata-text:hover{
+  color: #fcd512;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.product-cata-button{
+  font-family: sans-serif;
+  text-decoration: none;
+  z-index: 1;
+  color: rgb(116, 0, 0);
+  font-size: 16px;
+  font-weight: lighter;
+  border-style: solid;
+ background-color: #fcd512;
+ border-width: 0px;
+ padding: 10px 15px;
+ border-radius: 3px;
+ margin-top: 0px;
+}
+.product-cata-button:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition-duration: 0.6s;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+  border-color: black;
+  border-width: 1px;
+}
+.abaya01 , .abaya02 , .HIJAB01{ 
+  font-family:  sans-serif;
+  max-width: none;
+  border-radius: 10px;
+overflow: hidden;
+text-align: center;
+position: relative;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+height: 568px;
+}
+
+.product-show-cata{
+  display: grid;
+grid-template-columns: repeat(auto-fit,500px);  
+grid-gap: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+justify-content: center;
+}
+.cata-all-text{
+  position: relative;
+  z-index: 2;
+  margin-top: -287px;
+  color: rgb(255, 255, 255);
+}
+.cata-h2{
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: -20px;
+}
+/* product catagory showcase */
+
+/*recent live*/
+.live-container{
+  background-color: rgba(211, 211, 211, 0.5);
+  padding-top: 20px;
+}
+#rc-live-text , #rc-live-text-hedding{ 
+  font-family:  sans-serif;
+ text-align: center;
+ text-decoration: none;
+ color: black;
+}
+#rc-lives{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,266px); 
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+iframe{
+  border-radius: 10px;
+}
+ /* recent live */
+
+ /* outlet location */ 
+ .all-outlet{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 444px);
+  grid-gap: 45px; 
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ }
+.outlet-address{
+  width: 430px;
+  height: 170px;
+  overflow: hidden;
+  text-align: center;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;
+  padding-right: 10px;
+  margin-left: 0px;
+  
+}
+.outlet-name{
+display: block;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+#store-icon{
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' -25;
+  font-size: 15px;
+}
+.outlet-text{
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 15px;
+  color: #666;
+  display: inline;
+  clear: right;
+  margin: 0px;
+}
+.bcdl-outlet-photo{
+  float: left;
+  border-radius: 2px;
+  margin-left: 0%;
+  width: 170px;
+  margin-right: 10px;
+}
+.outlet-location-text{
+margin-top: 10px;
+margin-left: 166px;
+}
+.location-button{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #fcd512;
+  color: rgb(117, 0, 0);
+  padding: 10px;
+  border: 0px;
+  font-size: 14px;
+}
+.location-button:hover{
+  background-color: white;
+  color: black;
+  border: black;
+border-width: 1px;
+border-style: solid;
+box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+transition: 0.4s;
+}
+/* outlet location */
